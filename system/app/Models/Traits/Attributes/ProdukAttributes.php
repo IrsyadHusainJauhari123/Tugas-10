@@ -16,7 +16,7 @@ trait ProdukAttributes
 
     function handleUpload()
     {
-        $this->handleDelete();
+        // $this->handleDelete();
         if (request()->hasfile('foto')) {
             $foto = request()->file('foto');
             $destination = "images/produk";
