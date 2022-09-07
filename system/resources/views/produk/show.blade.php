@@ -12,9 +12,9 @@
             <div class="card-body">
                 <h3>{{ $produk->nama }}</h3>
                 <hr>
-                <p>
-                    @include('produk.show.detail')
-                </p>
+
+                @include('produk.show.detail')
+
                 <p>
                     {!! nl2br($produk->deskripsi) !!}
                 </p>
