@@ -14,23 +14,23 @@
                     @csrf
                     @method('PUT')
                     <div class="form-group">
-                        <label for="" class="control-">Nama</label>
+                        <label for="" class="control-label">Nama</label>
                         <input type="text" class="form-control" name="nama" value="{{ $user->nama }}">
                     </div>
                     <div class="form-group">
-                        <label for="" class="control-">Username</label>
+                        <label for="" class="control-label">Username</label>
                         <input type="text" class="form-control" name="username" value="{{ $user->username }}">
                     </div>
                     <div class="form-group">
-                        <label for="" class="control-">Email</label>
+                        <label for="" class="control-label">Email</label>
                         <input type="email" class="form-control" name="email" value="{{ $user->email }}">
                     </div>
                     <div class="form-group">
-                        <label for="" class="control-">Password</label>
+                        <label for="" class="control-label">Password</label>
                         <input type="password" class="form-control" name="password">
                     </div>
                     <div class="form-group">
-                        <label for="" class="control-">NO HP</label>
+                        <label for="" class="control-label">NO HP</label>
                         <input type="text" class="form-control" name="no_handphone">
                     </div>
                     <button class="btn btn-dark float-right"><i class="fa fa-save"></i>Simpan</button>
