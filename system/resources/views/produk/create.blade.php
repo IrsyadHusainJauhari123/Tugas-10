@@ -13,31 +13,31 @@
                 <form action="{{ url('admin/produk') }}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
-                        <label for="" class="control-">Nama</label>
+                        <label for="" class="control-label">Nama</label>
                         <input type="text" class="form-control" name="nama">
                     </div>
                     <div class="row">
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="" class="control-">Foto</label>
+                                <label for="" class="control-label">Foto</label>
                                 <input type="file" class="form-control" name="foto" accept=".png">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="" class="control-">Harga</label>
+                                <label for="" class="control-label">Harga</label>
                                 <input type="text" class="form-control" name="harga">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="" class="control-">Berat</label>
+                                <label for="" class="control-label">Berat</label>
                                 <input type="text" class="form-control" name="berat">
                             </div>
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label for="" class="control-">Stok</label>
+                                <label for="" class="control-label">Stok</label>
                                 <input type="text" class="form-control" name="stok">
                             </div>
                         </div>
